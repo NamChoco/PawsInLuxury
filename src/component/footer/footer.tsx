@@ -1,7 +1,7 @@
 import Facebook from "./../../assets/facebook-app-symbol.png";
 import './footer.css';
 
-const Footer = () => {
+export default function Footer() {
     return (
         <>
             <section className="Footer">
@@ -35,5 +35,3 @@ const Footer = () => {
         </>
     );
 };
-
-export default Footer;

@@ -2,7 +2,7 @@ import accountIMG from './../../assets/account.png';
 import basket from './../../assets/cart.png';
 import './navbar.css';
 
-const Navbar = () => {
+export default function Navbar() {
 
 
     return (
@@ -42,5 +42,3 @@ const Navbar = () => {
         </>
     );
 };
-
-export default Navbar;
